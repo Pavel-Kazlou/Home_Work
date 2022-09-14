@@ -1,6 +1,6 @@
-package home_work_6;
+package home_work_6.Search;
 
-import java.util.Arrays;
+import home_work_6.Interface.ISearchEngine;
 
 public class IndexOfSearch implements ISearchEngine {
     public long search(String text, String word) {

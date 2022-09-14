@@ -1,5 +1,7 @@
-package home_work_6;
+package home_work_6.Search;
 
+import home_work_6.Interface.ISearchEngine;
+import home_work_6.Search.IndexOfSearch;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

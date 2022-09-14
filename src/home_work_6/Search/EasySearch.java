@@ -1,7 +1,9 @@
-package home_work_6;
+package home_work_6.Search;
+
+import home_work_6.Interface.ISearchEngine;
 
 public class EasySearch implements ISearchEngine {
-
+//Перенести суть IndexOfSearch в Easy and RegEx Search
     @Override
     public long search(String text, String word) {
 

@@ -1,4 +1,4 @@
-package home_work_6;
+package home_work_6.WorkWithT;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

@@ -1,4 +1,6 @@
-package home_work_6;
+package home_work_6.Search;
+
+import home_work_6.Interface.ISearchEngine;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

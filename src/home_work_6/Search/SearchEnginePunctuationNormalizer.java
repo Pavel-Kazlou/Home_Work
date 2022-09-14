@@ -1,4 +1,6 @@
-package home_work_6;
+package home_work_6.Search;
+
+import home_work_6.Interface.ISearchEngine;
 
 public class SearchEnginePunctuationNormalizer implements ISearchEngine {
 
