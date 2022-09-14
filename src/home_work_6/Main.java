@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-
+//Тут был Максим
 // Чтение из файла -> передача прочитанного в строку
         Path filePath = Path.of("File_home_work_6.txt");
         String fileToString = Files.readString(filePath);
@@ -30,7 +30,7 @@ public class Main {
 
         NElements.someElements(arrList, 100);
 
-        ISearchEngine easySearch = new EasySearch();
+        //ISearchEngine easySearch = new EasySearch();
 
         ISearchEngine indexOfSearch = new IndexOfSearch();
         System.out.println("В тексте найдено - " + indexOfSearch.search(fileToString, "война") + " использований(ие) -> indexOf");
@@ -42,7 +42,7 @@ public class Main {
         System.out.println("В тексте найдено - " + indexOfSearch.search(fileToString.toLowerCase(), "и") + " использований(ие) -> indexOf");
         System.out.println("В тексте найдено - " + indexOfSearch.search(fileToString.toLowerCase(), "мир") + " использований(ие) -> indexOf");
 
-        ISearchEngine regExSearch = new RegExSearch();
+        //ISearchEngine regExSearch = new RegExSearch();
     }
 }
 // "Сказал сказал рассказала пересказал сказал.(сказал сказал? сказал1"
