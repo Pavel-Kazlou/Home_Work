@@ -13,8 +13,10 @@ public class TaskSleepIn {
      */
     public static boolean sleepIn(boolean weekday, boolean vacation) {
         if (!weekday || vacation) {
+            System.out.println("Можем спать");
             return true;
         } else {
+            System.out.println("Пора идти на работу");
             return false;
         }
     }

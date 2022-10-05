@@ -31,10 +31,10 @@ public class ThirdTask {
         System.out.println(Math.pow(14,3));     // 2744
 
         // Метод sqrt, cbrt - для извлечения квадратного и кубического корней
-        System.out.println(Math.sqrt(144));     // 2
-        System.out.println(Math.sqrt(64));      // 3
-        System.out.println(Math.cbrt(125));     // 2.0
-        System.out.println(Math.cbrt(1000));    // 3.0
+        System.out.println(Math.sqrt(144));     // 12
+        System.out.println(Math.sqrt(64));      // 83
+        System.out.println(Math.cbrt(125));     // 5.0
+        System.out.println(Math.cbrt(1000));    // 10.0
 
         // Метод random Для генерации случайных чисел(генерируется double число из промежутка 0.0 - 1.0)
         for (int i = 0; i < 5; i++) {
